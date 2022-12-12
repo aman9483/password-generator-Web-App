@@ -1,0 +1,75 @@
+body{
+
+    text-align: center;
+    text-align: center;
+   
+     
+}
+
+.card{
+
+    
+    align-items: center;
+    background: linear-gradient(rgb(19, 21, 22), #9198e5);
+    box-shadow: 0px 0px 7px 2px;
+    
+    
+}
+
+
+.card:hover{
+
+    transform: scale(1.05);
+}
+
+
+
+#generator{
+
+   border-radius: 7px;
+   font-weight: bold;
+   transition: background-color 1s , color 1s;
+   border: none;
+}
+
+#generator:hover{
+
+    background-color: aqua;
+    color: black;
+}
+
+footer{
+
+    padding: 50px;
+}
+@media only screen and (max-width: 412px) { 
+
+    .card{
+
+
+        position: relative;
+
+        left: -510px;
+        
+    }
+
+}
+
+    @media only screen and (max-width: 1024px){
+
+
+        .card{
+
+            margin-left: -910px;
+        }
+
+    }
+    
+
+
+
+
+
+
+
+
